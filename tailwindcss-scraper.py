@@ -26,7 +26,13 @@ wait.until(EC.url_changes("https://tailwindcss.com/plus/login"))
 
 # Array of target pages
 target_pages = [
-    "https://tailwindcss.com/plus/ui-blocks/ecommerce/components/store-navigation",
+    "https://tailwindcss.com/plus/ui-blocks/ecommerce/page-examples/storefront-pages",
+    "https://tailwindcss.com/plus/ui-blocks/ecommerce/page-examples/product-pages",
+    "https://tailwindcss.com/plus/ui-blocks/ecommerce/page-examples/category-pages",
+    "https://tailwindcss.com/plus/ui-blocks/ecommerce/page-examples/shopping-cart-pages",
+    "https://tailwindcss.com/plus/ui-blocks/ecommerce/page-examples/checkout-pages",
+    "https://tailwindcss.com/plus/ui-blocks/ecommerce/page-examples/order-detail-pages",
+    "https://tailwindcss.com/plus/ui-blocks/ecommerce/page-examples/order-history-pages",
 ]
 
 for target_page in target_pages:

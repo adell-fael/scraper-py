@@ -1,7 +1,8 @@
 import { cn } from "@/utils";
 import { Star } from "lucide-react";
+import { FC } from "react";
 
-const ReviewsSection: React.FC = () => {
+const ReviewsSection: FC = () => {
   const reviews = [
     {
       id: 1,
